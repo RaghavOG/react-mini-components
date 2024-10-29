@@ -1,0 +1,41 @@
+/* theme.css */
+
+:root {
+    --text-color-light: #333;
+    --background-color-light: #f9f9f9;
+    --button-bg-light: #333;
+    --button-text-light: #f9f9f9;
+  
+    --text-color-dark: #f9f9f9;
+    --background-color-dark: #333;
+    --button-bg-dark: #555;
+    --button-text-dark: #f9f9f9;
+  }
+  
+  .light-theme {
+    color: var(--text-color-light);
+    background-color: var(--background-color-light);
+  }
+  
+  .dark-theme {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-dark);
+  }
+  
+  .button-light {
+    background-color: var(--button-bg-light);
+    color: var(--button-text-light);
+  }
+  
+  .button-dark {
+    background-color: var(--button-bg-dark);
+    color: var(--button-text-dark);
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
